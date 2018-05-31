@@ -13,6 +13,7 @@ public class Demo {
 		buffer.put("c".getBytes());
 		buffer.put("d".getBytes());
 		buffer.put("e".getBytes());
+		System.out.println("ssjt");
 
 		// 3. 打印数据
 		buffer.rewind();
