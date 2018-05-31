@@ -9,7 +9,7 @@ public class ScDemo {
 		SocketChannel sc = SocketChannel.open();
 		sc.configureBlocking(false);
 		boolean connect = sc.connect(new InetSocketAddress("127.0.0.1", 8888));
-
+		System.out.println("ssjt");
 		while (!connect) {
 			connect = sc.finishConnect();
 		}
