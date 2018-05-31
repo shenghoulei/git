@@ -14,6 +14,7 @@ public class Demo {
 		buffer.put("d".getBytes());
 		buffer.put("e".getBytes());
 		System.out.println("ssjt");
+		System.out.println("ssjt");
 
 		// 3. 打印数据
 		buffer.rewind();
